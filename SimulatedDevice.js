@@ -26,7 +26,6 @@ function onGetTemperature(request, response) {
 
 
 client.open(function(err) {
-    console.log("asdfdasf");
     if (err) {
         console.error('could not open IotHub client');
     }  else {

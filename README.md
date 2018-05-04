@@ -4,8 +4,9 @@ Simple node IOT device client
 <ul>
 <li>Sets up a device application that registers application with the IOT hub</li>
 <li>Takes request to method and returns a random number representing the temperature to the caller.</li>
-  
-Instructions
+</ul>
+
+<b>Instructions</b>
 
 1. Ensure you have node and npm installed on your machine
 2. Download and unpack zipped file of application or clone respository

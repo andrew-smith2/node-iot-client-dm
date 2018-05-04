@@ -8,7 +8,7 @@ Simple node IOT device client
 
 <b>Instructions</b>
 
-1. Ensure you have node and npm installed on your machine
+1. Ensure you have node and npm installed on your machine  https://nodejs.org/en/ (When you install node you will get both node and npm)
 2. Download and unpack zipped file of application or clone respository
 3. Open terminal window to the location where the project files are located
 4. Type "npm install"

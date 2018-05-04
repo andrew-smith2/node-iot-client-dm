@@ -3,7 +3,7 @@
 var Mqtt = require('azure-iot-device-mqtt').Mqtt;
 var DeviceClient = require('azure-iot-device').Client;
 
-var connectionString = 'HostName=AndrewTestHub.azure-devices.net;DeviceId=test123;SharedAccessKey=KDkqhcSqLd0xr/eZxa9FAoguh4Qs6AqLYqcYQg/zz/8=';
+var connectionString = '{Connection string to device }';
 var client = DeviceClient.fromConnectionString(connectionString, Mqtt);
 
 

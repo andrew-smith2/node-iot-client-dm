@@ -9,27 +9,27 @@ var client = DeviceClient.fromConnectionString(connectionString, Mqtt);
 
 
 function onGetTemperature(request, response) {
-    
-    var temperature = Math.floor(Math.random() * 100) + 1;  
+
+    var temperature = Math.floor(Math.random() * 100) + 1;
     var payload = {
-        temperature:temperature
+        temperature: temperature
     };
 
-    response.send(200, JSON.stringify(payload), function(err) {
-        if(err) {
+    response.send(200, JSON.stringify(payload), function (err) {
+        if (err) {
             console.error('An error occurred when sending a method response:\n' + err.toString());
         } else {
-            console.log('Response to method \'' + request.methodName + '\' sent successfully.' );
+            console.log('Response to method \'' + request.methodName + '\' sent successfully.');
         }
     });
 }
 
 
-client.open(function(err) {
+client.open(function (err) {
     if (err) {
         console.error('could not open IotHub client');
-    }  else {
+    } else {
         console.log('client opened');
-        client.onDeviceMethod('getTemperature', onGetTemperature);
+         client.onDeviceMethod('getTemperature', onGetTemperature);
     }
 });

@@ -15,5 +15,5 @@ Simple node IOT device client
 4. Type "npm install" to install required packages
 5. Edit the SimulatedDevice.js and update the connection string to the Device with the provided connection string in Hackathon instructions
 6. After all packages are installed type "node device.js" to run the application
-7. You can now go and install the calling application that will invoke direct method on client. Calling application located here: https://github.com/spock75/Node-iot-device-caller.git
+7. You can now go and install the calling application that will invoke direct method on client. Calling application located here: https://github.com/spock75/node-iot-invoke-direct-method.git
 

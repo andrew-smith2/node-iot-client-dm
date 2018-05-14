@@ -1,4 +1,4 @@
-# Node-Iot-Client
+# node-iot-client-dm
 Simple node IOT device client
 <br>
 <ul>
